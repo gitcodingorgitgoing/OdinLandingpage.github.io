@@ -1,0 +1,429 @@
+* {
+box-sizing: border-box; 
+margin:0; 
+padding: 0; 
+
+}
+
+:root {
+
+    --bluer: #1F2937; 
+
+
+}
+
+/* Main div for nav bar */
+
+.secondnav {
+
+    height: 100px;
+    color:white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+/* bold span first element of nav bar */
+
+.bold01 { 
+
+margin-left: 400px;
+margin-top: 5px; 
+
+}
+
+/* Manipulates the total of the links in nav bar  */
+
+.links_header { 
+
+    text-align: center;
+
+margin-right: 400px;
+
+margin-left: 10px; 
+
+margin-top: 5px; 
+
+list-style: none;
+
+
+}
+
+/* Specifically maniuplates list items (links) in nav bar */ 
+
+.links_header li {
+
+display: inline;
+color:  #E5E7EB; 
+font-size: 18px;
+margin-right: 10px;
+
+
+}
+
+/*Initial blue background after nav bar */ 
+
+.main_blue { 
+
+background-color: var(--bluer);
+
+height: 500px;
+
+
+
+}
+
+
+.second_blue { 
+
+    display:grid; 
+    
+    grid-template-columns: 1fr 951px;
+
+    grid-template-rows: 60px 60px 30px 30px 60px 60px 60px;  
+}
+
+
+/* Invisible text that helps with margins */ 
+
+.spaceblue {
+
+margin-bottom: 100px;
+color: var(--bluer);
+
+
+}
+
+/* Hero dog image */
+
+.herodog { 
+
+
+grid-column: 2;
+grid-row: span 4; 
+height: 300px; 
+
+}
+
+
+
+/* Heading for main space content */ 
+
+.firsth2 {
+
+    
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    grid-column: 1;
+    grid-row: 1; 
+    margin-left: 500px; 
+    
+    
+
+
+}
+
+.secondh2 { 
+
+    color: #F9FAF8; 
+    font-size: 48px;
+    font-weight: 800;
+    grid-column: 1; 
+    grid-row: 2; 
+    margin-left: 500px; 
+  
+}
+
+
+.main_text { 
+
+    grid-column: 1;
+    grid-row: 3; 
+    margin-left: 500px; 
+    font-size: 18px; 
+    color: #E5E7EB; 
+
+
+}
+
+.main_text2 {
+
+    grid-column: 1;
+    grid-row: 4; 
+    margin-left: 500px;
+    font-size: 18px; 
+    color: #E5E7EB; 
+
+}
+
+.main_text3 {
+
+    grid-column: 1;
+    grid-row: 5; 
+    margin-left: 500px; 
+    align-items: start;
+    font-size: 18px; 
+    color: #E5E7EB; 
+
+}
+
+
+.sign_up { 
+
+    grid-column: 1;
+    grid-row: 6; 
+    width: 100px; 
+    height: 25px; 
+    margin-left: 500px; 
+    color: white; 
+    background-color: #3882F6 ;
+   
+
+}
+
+
+/* Beginning of middle white section  */
+
+.whitesection { 
+
+    height: 500px; 
+    
+
+}
+
+/* Heading middle section */
+
+.randominfo {
+
+text-align: center;
+font-size: 36px; 
+margin-top: 50px; 
+
+}
+
+/* beginning of white section */
+
+/* container for 4 boxes */
+
+.boxsection { 
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+margin-top: 100px;
+
+}
+
+
+.box1 {
+
+border-width: 5px; 
+border-style: solid; 
+
+margin-right: 50px;
+
+width: 150px;
+
+height: 150px; 
+
+
+}
+
+/* Beginning of text section */
+
+.textwhitesection {
+
+display: grid; 
+
+grid-template-rows: 180px 180px 180px 180px auto;
+
+grid-template-columns: 180px 180px 220px 300px auto; 
+
+margin-left: 550px;
+
+
+}
+
+
+
+.textbox { 
+
+
+ grid-row: 1;
+ grid-column: 1;
+ margin-left: 10px;
+
+
+}
+
+.textbox2 { 
+
+
+grid-row: 1;
+grid-column: 2;
+margin-left: 35px; 
+   
+   
+   }
+
+.textbox3 { 
+
+
+grid-row: 1;
+grid-column: 3;
+margin-left: 50px; 
+   
+   
+   }
+
+
+
+.textbox4 { 
+
+
+grid-row: 1;
+grid-column: 4;
+
+margin-left: 40px;
+
+
+   
+   
+   }
+
+/*  For the last text row of each text box (forimage) */
+
+.orimage { 
+
+margin-left: 35px;
+}
+
+/* Start of grey section */
+
+
+.greysection {
+
+height: 400px; 
+
+background-color: #E5E7EB;
+
+display: grid;
+
+grid-template-rows: auto auto auto auto;
+
+grid-template-columns: auto auto auto auto;
+
+
+
+}
+
+
+.quote {
+
+grid-column: 2;
+grid-row: 2;
+
+align-content: center;
+
+margin-left: 400px;
+
+
+
+}
+
+
+.quote01 { 
+
+    font-weight: 200;
+    font-style: italic;
+    font-size: 36px;
+    color:grey; 
+
+}
+
+.quote02 {
+
+    font-size: 36px;
+    color: #1F2937; 
+    margin-left: 400px;
+
+
+}
+
+/* End of greysection */
+
+.whitesection02 {
+
+height: 400px; 
+
+display: flex;
+
+align-items: center;
+
+justify-content: center;
+
+}
+
+.call2action { 
+
+width: 1200px; 
+
+height: 150px; 
+
+background-color: #3882F6;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+
+}
+
+
+.actionscript {
+
+margin-left: 100px;
+
+color:white; 
+
+
+
+}
+
+
+
+
+
+.signup02 {
+
+height: 30px; 
+width: 100px; 
+
+float:right ;
+
+margin-right: 100px;
+
+color: white; 
+
+background-color:#3882F6;
+
+
+}
+
+
+
+
+
+
+
+
+
